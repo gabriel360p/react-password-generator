@@ -4,6 +4,7 @@ export const Container = styled.div`
   display: flex;
   background-color: #efece2;
   height: 100%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -17,12 +18,16 @@ export const Title = styled.h2`
 `;
 export const CardContainer = styled.div`
   display: flex;
-  width: clamp(300px, 50%, 500px);
+  width: 70%;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   gap: 20px;
   height: clamp(300px, 50%, 500px);
+  /* 
+  @media screen and (max-width:) {
+    
+  } */
 `;
 export const DivPassword = styled.div`
   display: flex;
@@ -34,6 +39,13 @@ export const DivPassword = styled.div`
   input {
     padding: 20px;
     width: 30vw;
+  }
+
+  @media screen and (max-width: 600px) {
+   input{
+    width: 70vw;
+    max-width:80vw;
+   }
   }
 `;
 
@@ -55,7 +67,8 @@ export const Button = styled.span`
 `;
 export const DivOptions = styled.div`
   display: flex;
-  width: clamp(200px, 30vw, 500px);
+  /* width: clamp(200px, 30vw, 500px); */
+  width: 60%;
   padding: 20px;
   border-radius: 10px;
   background-color: white;
@@ -65,6 +78,12 @@ export const DivOptions = styled.div`
   justify-content: space-evenly;
   align-items: start;
   height: 60%;
+
+  @media screen and (max-width: 600px) {
+    width: 85vw;
+    max-width: 90vw;
+    font-size: 12px;
+  }
 `;
 export const SpanRange = styled.span``;
 
