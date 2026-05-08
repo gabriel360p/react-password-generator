@@ -1,4 +1,4 @@
-# 🔐 VoidPass
+# 🔐 Gerador de Senhas Forte
 
 Aplicação web desenvolvida em React para geração de senhas seguras e personalizadas, o usuário pode definir o tamanho da senha e selecionar quais tipos de caracteres deseja incluir, como letras maiúsculas, minúsculas, números e símbolos especiais.
 
