@@ -1,16 +1,69 @@
-# React + Vite
+# 🔐 VoidPass
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida em React para geração de senhas seguras e personalizadas, o usuário pode definir o tamanho da senha e selecionar quais tipos de caracteres deseja incluir, como letras maiúsculas, minúsculas, números e símbolos especiais.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# 🚀 Tecnologias Utilizadas
 
-## React Compiler
+* React
+* JavaScript
+* Styled Components
+* CSS3
+* Hooks
+* Clipboard API
+* Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Gerar senhas aleatórias
+✅ Definir tamanho da senha
+✅ Letras maiúsculas
+✅ Letras minúsculas
+✅ Números
+✅ Caracteres especiais
+✅ Copiar senha para área de transferência
+✅ Interface responsiva
+✅ Design moderno cyberpunk/neon
+
+---
+
+# ⚙️ Como executar o projeto
+
+```
+# Clonar o repositório
+git clone https://github.com/gabriel360p/react-password-generator.git
+
+# Entrar na pasta do projeto
+cd react-password-generator
+
+# Instalar dependências
+npm install
+
+# Executar aplicação
+npm run dev
+```
+
+---
+
+# 🎯 Objetivo do Projeto
+
+Este projeto foi criado com foco em prática de desenvolvimento Front-end utilizando React, trabalhando conceitos importantes como:
+
+* Componentização
+* Manipulação de estado com Hooks
+* Responsividade
+* Eventos
+* Manipulação de formulários
+* Styled Components
+* Lógica de programação
+
+---
+
+# 👨‍💻 Autor
+
+Gabriel Costa da Silva
+
+* Acesse o projeto em: https://react-password-generator-6quajul37-gabriel360ps-projects.vercel.app/
